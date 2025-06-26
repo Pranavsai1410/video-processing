@@ -9,6 +9,17 @@ This is a FastAPI application that processes video files, extracts frames, compu
 - **Similarity Search**: Allows querying similar frames based on an uploaded image's feature vector, returning frame images and vectors.
 
 ## Output 
+1. [FastAPI Swagger UI (`localhost:8000/docs`)](https://github.com/Pranavsai1410/video-processing/blob/main/Screenshot%202025-06-26%20163924.png)
+
+2. [Upload Endpoint – Frame Extraction and Vector Insertion](https://github.com/Pranavsai1410/video-processing/blob/main/Screenshot%202025-06-26%20164027.png)
+
+3. [Output Frames Folder Structure](https://github.com/Pranavsai1410/video-processing/blob/main/Screenshot%202025-06-26%20164049.png)
+
+4. [Search Endpoint – Matching Frame Results](https://github.com/Pranavsai1410/video-processing/blob/main/Screenshot%202025-06-26%20164133.png)
+
+5. [Decoded Result Images from Search](https://github.com/Pranavsai1410/video-processing/blob/main/Screenshot%202025-06-26%20164147.png)
+
+## Given Search Image
 
 ## Prerequisites
 - Docker and Docker Compose
