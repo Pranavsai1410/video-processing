@@ -9,30 +9,45 @@ This is a FastAPI application that processes video files, extracts frames, compu
 - **Similarity Search**: Allows querying similar frames based on an uploaded image's feature vector, returning frame images and vectors.
 
 ## Output 
-### 🔹 1. FastAPI Swagger UI (`localhost:8000/docs`)
+###  1. FastAPI Swagger UI (`localhost:8000/docs`)
 ![Swagger UI](https://github.com/Pranavsai1410/video-processing/blob/main/Screenshot%202025-06-26%20163924.png)
 
 ---
 
-### 🔹 2. Upload Endpoint – Frame Extraction and Vector Insertion
+###  2. Upload Endpoint – Frame Extraction and Vector Insertion
 ![Upload Endpoint](https://github.com/Pranavsai1410/video-processing/blob/main/Screenshot%202025-06-26%20164027.png)
 
 ---
 
-### 🔹 3. Output Frames Folder Structure
+###  3. Output Frames Folder Structure
 ![Output Frames](https://github.com/Pranavsai1410/video-processing/blob/main/Screenshot%202025-06-26%20164049.png)
 
 ---
 
-### 🔹 4. Search Endpoint – Matching Frame Results
+###  4. Search Endpoint – Matching Frame Results
 ![Search Results JSON](https://github.com/Pranavsai1410/video-processing/blob/main/Screenshot%202025-06-26%20164133.png)
 
 ---
 
-### 🔹 5. Decoded Result Images from Search
+###  5. Decoded Result Images from Search
 ![Decoded Results](https://github.com/Pranavsai1410/video-processing/blob/main/Screenshot%202025-06-26%20164147.png)
 
-## Given Search Image
+## Frame Search Example
+
+This example demonstrates how the system finds visually similar frames using feature vectors (color histograms) and Qdrant.
+
+### Input Frame (Query Image)
+This is the input frame used to query the vector database:
+
+![Input Frame](https://github.com/Pranavsai1410/video-processing/blob/main/frame_19.jpg)
+
+---
+
+### Output Frame (Top Search Result)
+This is the most similar frame retrieved from the database:
+
+![Output Frame](https://raw.githubusercontent.com/Pranavsai1410/video-processing/refs/heads/main/result_0.jpg)
+
 
 ## Prerequisites
 - Docker and Docker Compose
