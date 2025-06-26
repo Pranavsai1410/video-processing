@@ -8,6 +8,8 @@ This is a FastAPI application that processes video files, extracts frames, compu
 - **Vector Storage**: Stores feature vectors in Qdrant for efficient similarity search.
 - **Similarity Search**: Allows querying similar frames based on an uploaded image's feature vector, returning frame images and vectors.
 
+## Output 
+
 ## Prerequisites
 - Docker and Docker Compose
 - Python 3.11 (if running without Docker)
